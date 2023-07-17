@@ -8,6 +8,8 @@ After creating a new project and write down the necessey code, then you need to 
 
 now everything is ready. first run the flutter application. from here you will get the FCM Token for the device. then open Postman and create a POST request like below, where the request will be in json formate and paste FCM Token in regestration id option and also add a new option in request header like-  Key Name : Authorization, Value: key="cloud messaging API server key"
 
+request url is- https://fcm.googleapis.com/fcm/send
+
 here the request body will be like below-
 
 # Server PostMan Fire Payload
@@ -33,3 +35,5 @@ here the request body will be like below-
 
 
 Now the send button and you will get a successfull message in postman and also get the push notification in your device.
+
+Thank you.....
